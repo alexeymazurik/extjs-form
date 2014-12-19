@@ -118,7 +118,7 @@ Ext.define('IndigoTest.view.Form', {
     },
     onBookingClick: function(){
         Ext.Ajax.request({
-            url: 'ajax_demo/sample.json',
+            url: 'rest/booking',
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             params : Ext.JSON.encode(Ext.getCmp('myForm').getValues()),
