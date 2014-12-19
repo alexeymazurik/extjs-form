@@ -1,0 +1,7 @@
+.idea/*
+
+.DS_Store
+app/.DS_Store
+app/view/.DS_Store
+app/model/.DS_Store
+app/controller/.DS_Store
